@@ -29,7 +29,7 @@ $config = [
             'class' => '\x51\yii2\modules\recaptchav3\Module',
             'publicKey' => '...........................',    
             'privateKey' => '...........................',
-			'disableForRegisterUser' => true // отключить для зарегистрированных пользователей
+		    'disableForRegisterUser' => true // отключить для зарегистрированных пользователей
         ],
     ], // end modules
 ];

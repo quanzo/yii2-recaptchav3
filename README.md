@@ -29,7 +29,7 @@ $config = [
             'class' => '\x51\yii2\modules\recaptchav3\Module',
             'publicKey' => '...........................',    
             'privateKey' => '...........................',
-		    'disableForRegisterUser' => true // отключить для зарегистрированных пользователей
+			'disableForRegisterUser' => true // отключить для зарегистрированных пользователей
         ],
     ], // end modules
 ];
@@ -46,6 +46,6 @@ if (\Yii::$app->getModule('recaptcha')->validUser()) {
 }
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Если проверка должна быть отключена - установите константу DISABLE_RECAPTCHA
+Если проверка должна быть отключена - установите константу __DISABLE_RECAPTCHA__
 
  

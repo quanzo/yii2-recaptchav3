@@ -8,7 +8,7 @@ class Module extends \yii\base\Module implements \yii\base\BootstrapInterface
 {
     public $publicKey;
     public $privateKey;
-    public $validUserScore = 0.6;
+    public $validUserScore = 0.6; // if score >= then user
     public $defaultUserScore = 0.1;
     public $disableForRegisterUser = true;
     protected $_errors;

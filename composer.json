@@ -1,7 +1,7 @@
 {
     "name": "quanzo/yii2-recaptchav3",
     "description": "Invisible google recaptcha (ver 3) for Yii 2",
-	"version": "1.0.1",
+	"version": "1.0.2",
     "authors": [
         {
             "name": "Quanzo",

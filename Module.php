@@ -10,7 +10,7 @@ class Module extends \yii\base\Module implements \yii\base\BootstrapInterface
     public $privateKey;
     public $validUserScore = 0.6; // if score >= then user
     public $defaultUserScore = 0.1;
-    public $disableForRegisterUser = true;
+    public $disableForRegisterUser = true; // register user always good
     protected $_errors;
     public $useOnRoute = [];
 
